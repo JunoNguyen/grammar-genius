@@ -20,7 +20,7 @@ export const putDb = async (content) => {
   const store = tx.objectStore('jate');
   const request = store.put({ id: id, todo: content });
   const result = await request;
-  console.error('putDb not implemented');
+  // console.error('putDb not implemented');
 };
 // TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
